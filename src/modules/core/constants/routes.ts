@@ -22,4 +22,6 @@ const { HOME, PORTFOLIO, ABOUT_US } = ROUTES;
 
 export const DEFAULT_PAGE = generatePath(HOME.path);
 
+export const BASE_NAME = '/portfolio-react-app';
+
 export { HOME, PORTFOLIO, ABOUT_US };

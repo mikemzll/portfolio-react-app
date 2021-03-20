@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import { DEFAULT_PAGE, HOME, PORTFOLIO, ABOUT_US } from '../../../modules/core/constants/routes';
+import { DEFAULT_PAGE, HOME, PORTFOLIO, ABOUT_US, BASE_NAME } from '../../../modules/core/constants/routes';
 import Header from '../../../modules/core/components/Header/Header';
 import Footer from '../../../modules/core/components/Footer/Footer';
 
 const AppRouter = () => {
   return (
-    <Router>
+    <Router basename={BASE_NAME}>
       <Header />
 
       <div className="page-wrapper">
