@@ -16,7 +16,7 @@ const ServiceComponent = ({service}: {service: IService}) => {
       <Divider />
       <div className="service__block">
         <div className="service__subtitle">
-          {t("SERVICES.MAIN_TOOLS")}
+          {t("HOME.SERVICES.MAIN_TOOLS")}
         </div>
         <div>
           {!!tools.length && tools.map((item, index) => index < (tools.length - 1) ? item + ', ' : item)}
@@ -24,7 +24,7 @@ const ServiceComponent = ({service}: {service: IService}) => {
       </div>
       <div className="service__block">
         <div className="service__subtitle">
-          {t("SERVICES.OUR_EXPERTISE")}
+          {t("HOME.SERVICES.OUR_EXPERTISE")}
         </div>
         <ul className="service__item-list">
           {!!expertise.length && expertise.map((item) => <li>{item}</li>)}
