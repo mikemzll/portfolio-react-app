@@ -1,0 +1,70 @@
+@import '../../../../assets/styles/variables.scss';
+
+.app-header {
+  position: fixed;
+  width: 100%;
+  
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $header-padding;
+    height: $header-height;
+    background-color: $dark;
+  }
+
+  &__logo {
+    // height: $header-logo-heignt;
+
+  }
+
+  &__navigation {
+
+    ul {
+      position: relative;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+
+      li {
+        margin: 0 10px;
+
+        .link {
+          position: relative;
+
+          a {
+            position: relative;
+            z-index: 3;
+            text-decoration: none;
+            color: $grey;
+            margin: 0;
+            font-weight: 600;
+            font-size: 13px;
+
+            &:hover {
+              color: $white;
+            }
+          }
+
+          &.active {
+            a {
+              color: white;
+            }
+  
+            .underline {
+              position: absolute;
+              z-index: 1;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, 40%);
+              width: 120%;
+              height: 7px;
+              background-color: $blue;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

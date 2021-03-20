@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+body {
+  color: $white;
+  background-color: $dark;
+}
+
+.page-wrapper {
+  padding: $header-height 0 0;
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  &-text {
+    font-size: 60px;
+    line-height: 90px;
+  }
+  img {
+    height: 350px;
+  }
+}
+
+a {
+  font-size: 16px;
+  line-height: 24px;
+  color: $blue;
+  text-decoration: none;
+}

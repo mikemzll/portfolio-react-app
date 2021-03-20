@@ -1,0 +1,18 @@
+{
+  "COMMON": {
+    "APP_IS_LOADING": "Application is loading..."
+  },
+  "HOME": {
+    "BANNER": "Hello, we are the Design again, your design supplier //.",
+    "RECENT_PROJECTS": "Recent projects",
+    "SERVICES": {
+      "T": "Services",
+      "MAIN_TOOLS": "Main Tools:",
+      "OUR_EXPERTISE": "Our expertise"
+    },
+    "OUR_APPROACH": "Our approach"
+  },
+  "PORTFOLIO": {
+    "BANNER": "Let us show you our experience design Web & Mobile application."
+  }
+}

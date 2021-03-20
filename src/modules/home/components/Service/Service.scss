@@ -1,0 +1,30 @@
+@import '../../../../assets/styles/variables.scss';
+
+.service {
+  padding: 50px 40px;
+  background-color: $dark-grey;
+  border-radius: 10px;
+
+  font-size: 24px;
+  line-height: 28px;
+
+  &__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  &__subtitle {
+    color: $grey;
+    margin-bottom: 10px;
+  }
+
+  &__block {
+    margin-bottom: 30px;
+  }
+
+  &__item-list {
+    li {
+      line-height: 40px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import '../../../../assets/styles/variables.scss';
+
+.footer {
+  margin-bottom: 50px;
+
+  &-divider {
+    display: flex;
+    margin-bottom: 50px;
+
+    div:first-child {
+      width: 80px;
+      border-top: solid 1px $grey;
+    }
+
+    div {
+      width: 100%;
+      border-top: solid 1px $dark-grey-2;
+    }
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+
+    &__copyright {
+      color: $grey;
+      width: 300px;
+      margin-right: 60px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &__contacts {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 670px;
+    }
+  }
+
+  .socials {
+    margin: 0 -10px;
+
+    a.social {
+      margin: 0 10px;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+}

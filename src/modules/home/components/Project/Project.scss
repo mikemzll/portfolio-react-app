@@ -1,0 +1,15 @@
+@import '../../../../assets/styles/variables.scss';
+
+.project {
+
+  &__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey;
+  }
+}
